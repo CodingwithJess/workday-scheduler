@@ -1,5 +1,6 @@
 // when I open planner, (document ready?)
-
+var words;
+var hourInfo;
 // the current day is displayed at the top of the calendar (moment.js?)
 const m = moment();
 
@@ -33,12 +34,20 @@ function colorChange (){
   }
 }
 
+$(".saveBtn").click(function(){
+  words = $(this).siblings(".input").text();
+  console.log(words);
+  hourInfo = $(this).siblings(".hour").text();
+  console.log(hourInfo);
+  localStorage.setItem(hourInfo, JSON.stringify(words));
+    
+});
+
 
 
 // CLICK into timeblock button, I can enter an event (text) and CLICK save button
 // timeblock text is saved into LOCAL STORAGE
-var words;
-var hourInfo;
+
 
 // timeblock text stays even when page is refreshed
 
