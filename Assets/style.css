@@ -85,9 +85,8 @@ p{
   transition: all .3s ease-in-out;
 }
 
-.footer{
+footer{
   position: absolute;
-  text-align: center;
   left: 0;
   bottom: 0;
   width: 100%;
