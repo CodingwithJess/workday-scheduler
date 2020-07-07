@@ -24,7 +24,7 @@ for (var hour = 9; hour < 18; hour++) {
               <div class="input-group">
                 <textarea class="form-control text-area"></textarea>
                 <div class="input-group-append">
-                  <button class="save-button ">
+                  <button class="save-button">
                     <i class="far fa-save fa-2x save-icon"></i>
                   </button>
                 </div>
@@ -40,7 +40,7 @@ $.each($(".time-block"), function (index, value) {
     $(this).find("textarea").addClass("present");
   } else if (Number(dateHour) < m.hour()) {
     $(this).find("textarea").addClass("past").attr("disabled", "disabled");
-    $(this).find(".save-button").addClass("disabled").attr("disabled", true);
+
   } else {
     $(this).find("textarea").addClass("future");
   }

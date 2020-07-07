@@ -8,21 +8,21 @@ textarea{
   background: transparent;
   width: 100%;
   min-height: 5rem;
-  border: none;
+  border: 2px solid black;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
-  border-right: 1px solid black
+  font-family: 'Montserrat', sans-serif;
   padding: 10px;
   color: black;
 }
 
 .jumbotron {
+  background-image: url(Assets/SchedulerBackground.jpg);
+  background-size: cover;
   text-align: center;
-  background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 7px solid black;
 }
 
 .row {
@@ -50,7 +50,13 @@ textarea{
   border-top: 1px dashed #000000;
 }
 
+h1 {
+  font-family: 'Galada', cursive;
+}
 
+p{
+  font-family: 'Montserrat', sans-serif;
+}
 .present {
   background-color: #ff6961;
 }
@@ -60,24 +66,25 @@ textarea{
 }
 
 .save-button {
-  border-left: 1px solid black;
   border-radius: 50px;
   margin: 10px;
   background-color: #06AED5;
   color: white;
-  display: block;
   text-align: center;
 }
 
+
 .saveBtn i:hover {
+  cursor: pointer;
   font-size: 20px;
+  text-align: center;
   transition: all .3s ease-in-out;
 }
 
 
 .disabled {
   color: black;
-  background-color: #f0f0f0;
+  background-color: darkgray;
   border-color: #787878;
   cursor: not-allowed;
   pointer-events: none;
