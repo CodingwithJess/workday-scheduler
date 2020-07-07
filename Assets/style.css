@@ -17,7 +17,7 @@ textarea{
 }
 
 .jumbotron {
-  background-image: url(Assets/SchedulerBackground.jpg);
+  background-image: url(WorkdayHeader.jpg);
   background-size: cover;
   text-align: center;
   color: black;
@@ -41,7 +41,7 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
 .hour {
@@ -52,33 +52,34 @@ textarea{
 
 h1 {
   font-family: 'Galada', cursive;
+  text-shadow: #55533e 1px 0 10px;
+  
 }
 
 p{
   font-family: 'Montserrat', sans-serif;
 }
 .present {
-  background-color: #ff6961;
+  background-color: #c7513d;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #eee0d9;
 }
 
 .save-button {
   border-radius: 50px;
   margin: 10px;
-  background-color: #06AED5;
+  background-color: #55533e;
   color: white;
   text-align: center;
 }
 
 
-.saveBtn i:hover {
+.saveBtn {
   cursor: pointer;
   font-size: 20px;
   text-align: center;
-  transition: all .3s ease-in-out;
 }
 
 
