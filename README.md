@@ -1,20 +1,19 @@
-# workday-scheduler
+# Work Day Scheduler
 
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
+#### Deployed Project
+
+https://codingwithjess.github.io/workday-scheduler/
+
+## Description
+
+A simple calendar application that allows the user to save events for each hour of the day. Each timeblock is color coded to indicate whether it is the past, present, or future. When the save button for each timeblock is triggered, the text input for that event is saved in local storage. As a user with a busy schedule, I want the user to add important events to the daily planner, so they can manage their time more effectively.
+
+Third Party Assets:
+
+* [Momement.js](https://momentjs.com/)
+* [Font Awesome](https://fontawesome.com/)
+* [Bootstrap](https://getbootstrap.com/)
 
 
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
+## Image of deployed site
+![Scheduler](Assets/AboutMePreview.png?raw=true "Scheduler")
