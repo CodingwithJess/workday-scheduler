@@ -1,17 +1,17 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
-textarea{
+textarea {
   background: transparent;
   width: 100%;
   min-height: 5rem;
   border: 2px solid black;
   resize: none;
   color: #000000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 10px;
   color: black;
 }
@@ -29,11 +29,11 @@ textarea{
   margin-bottom: 1.25rem;
 }
 
-.description{
+.description {
   white-space: pre-wrap;
 }
 
-.time-block{
+.time-block {
   text-align: center;
   border-radius: 15px;
 }
@@ -51,13 +51,12 @@ textarea{
 }
 
 h1 {
-  font-family: 'Galada', cursive;
+  font-family: "Galada", cursive;
   text-shadow: #55533e 1px 0 10px;
-  
 }
 
-p{
-  font-family: 'Montserrat', sans-serif;
+p {
+  font-family: "Montserrat", sans-serif;
 }
 .present {
   background-color: #c7513d;
@@ -75,13 +74,13 @@ p{
   text-align: center;
 }
 
-
 .saveBtn {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
   cursor: pointer;
   font-size: 20px;
   text-align: center;
 }
-
 
 .disabled {
   color: black;

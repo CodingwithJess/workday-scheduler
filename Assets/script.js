@@ -40,7 +40,6 @@ $.each($(".time-block"), function (index, value) {
     $(this).find("textarea").addClass("present");
   } else if (Number(dateHour) < m.hour()) {
     $(this).find("textarea").addClass("past").attr("disabled", "disabled");
-
   } else {
     $(this).find("textarea").addClass("future");
   }
@@ -92,9 +91,7 @@ if (localStorage.getItem("freeHours")) {
 
 //set value of freeHours to equal the user input for each row
 $(".time-block").each(function () {
-  $(this)
-    .find(".text-area")
-    .val(freeHours[$(this).attr("data-time")].value);
+  $(this).find(".text-area").val(freeHours[$(this).attr("data-time")].value);
 });
 
 //save value to local storage on click
